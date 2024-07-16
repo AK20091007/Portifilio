@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/Portifilio/static/css/main.d7af21cc.css",
-    "main.js": "/Portifilio/static/js/main.05e7c0f9.js",
+    "main.css": "/Portifilio/static/css/main.2bb82949.css",
+    "main.js": "/Portifilio/static/js/main.7d5b5b7d.js",
     "static/media/headshot.png": "/Portifilio/static/media/headshot.1ee86491b45aec78296a.png",
-    "static/media/skills-background.jpg": "/Portifilio/static/media/skills-background.05ef297fb2e87aef16a6.jpg",
-    "static/media/projects-background.jpg": "/Portifilio/static/media/projects-background.2492041e4529420ffb3a.jpg",
-    "static/media/about-background.jpg": "/Portifilio/static/media/about-background.87b8bf45a7461233e953.jpg",
-    "static/media/background-image.jpg": "/Portifilio/static/media/background-image.80f437bcd285532767aa.jpg",
+    "static/media/project1.png": "/Portifilio/static/media/project1.fc39e4417e854bff44f8.png",
+    "static/media/project2.png": "/Portifilio/static/media/project2.ee3d309237a9daaf56c7.png",
     "index.html": "/Portifilio/index.html",
-    "main.d7af21cc.css.map": "/Portifilio/static/css/main.d7af21cc.css.map",
-    "main.05e7c0f9.js.map": "/Portifilio/static/js/main.05e7c0f9.js.map"
+    "main.2bb82949.css.map": "/Portifilio/static/css/main.2bb82949.css.map",
+    "main.7d5b5b7d.js.map": "/Portifilio/static/js/main.7d5b5b7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7af21cc.css",
-    "static/js/main.05e7c0f9.js"
+    "static/css/main.2bb82949.css",
+    "static/js/main.7d5b5b7d.js"
   ]
 }

@@ -7,7 +7,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-import AcademicProjects from './components/AcademicProjects'; // Import the new component
+import AcademicProjects from './components/AcademicProjects';
 import './styles.css';
 
 const App = () => {
@@ -36,7 +36,7 @@ const App = () => {
         <About />
         <Projects />
         <Skills />
-        <AcademicProjects /> {/* Add the new component */}
+        <AcademicProjects />
         <Contact />
       </div>
     </Provider>

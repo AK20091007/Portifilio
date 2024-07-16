@@ -2,12 +2,14 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #1c1c1c;
+  color: #f4f4f4;
   scroll-behavior: smooth;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 h1, h2, h3, p {
@@ -16,13 +18,13 @@ h1, h2, h3, p {
 
 /* Navbar styles */
 .navbar {
-  background-color: #007bff;
+  background-color: #1c1c1c;
   overflow: hidden;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .navbar-container {
@@ -33,7 +35,7 @@ h1, h2, h3, p {
 }
 
 .navbar-brand a {
-  color: white;
+  color: #f0a500;
   font-size: 24px;
   font-weight: 700;
   text-decoration: none;
@@ -42,7 +44,7 @@ h1, h2, h3, p {
 .menu-icon {
   display: none;
   cursor: pointer;
-  color: white;
+  color: #f0a500;
   font-size: 24px;
 }
 
@@ -61,7 +63,7 @@ h1, h2, h3, p {
 
 .nav-menu a {
   display: block;
-  color: white;
+  color: #f0a500;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -71,7 +73,7 @@ h1, h2, h3, p {
 }
 
 .nav-menu a:hover {
-  background-color: #0056b3;
+  background-color: #333;
   border-radius: 4px;
 }
 
@@ -89,7 +91,7 @@ h1, h2, h3, p {
     left: -100%;
     opacity: 0;
     transition: all 0.5s ease;
-    background-color: #007bff;
+    background-color: #1c1c1c;
   }
 
   .nav-menu.active {
@@ -111,22 +113,22 @@ h1, h2, h3, p {
 .hero {
   text-align: center;
   padding: 100px 20px;
-  background-color: #e9ecef;
+  background-color: #2c2c2c;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 80vh;
-  background: linear-gradient(135deg, #007bff 0%, #00d4ff 100%);
-  color: white;
+  background: linear-gradient(135deg, #2b2b2b 0%, #444 100%);
+  color: #f0a500;
 }
 
 .hero .headshot {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  border: 5px solid white;
+  border: 5px solid #f0a500;
   margin-bottom: 20px;
 }
 
@@ -145,17 +147,17 @@ h1, h2, h3, p {
 /* Section styles */
 section {
   padding: 60px 20px;
-  background-color: white;
+  background-color: #2c2c2c;
   margin: 20px 0;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 section h2 {
   font-size: 36px;
   margin-bottom: 20px;
   text-align: center;
-  color: #007bff;
+  color: #f0a500;
 }
 
 .about, .projects, .skills, .contact, .academic-projects {
@@ -172,14 +174,14 @@ section h2 {
 .about-text {
   font-size: 18px;
   line-height: 1.6;
-  color: #555;
+  color: #ddd;
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
 }
 
 .highlight {
-  color: #007bff;
+  color: #f0a500;
   font-weight: 600;
 }
 
@@ -191,7 +193,7 @@ section h2 {
 .skills-list h3 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #007bff;
+  color: #f0a500;
   text-align: center;
 }
 
@@ -215,16 +217,16 @@ section h2 {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
-  background-color: white;
+  background-color: #1c1c1c;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .project:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
 .project img {
@@ -232,7 +234,7 @@ section h2 {
   height: 150px;
   border-radius: 8px;
   margin-right: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .project-content {
@@ -242,13 +244,13 @@ section h2 {
 .project-title {
   font-size: 24px;
   margin: 0 0 10px 0;
-  color: #333;
+  color: #f0a500;
 }
 
 .project-description {
   margin: 0;
   font-size: 16px;
-  color: #666;
+  color: #ccc;
 }
 
 .work-experience {
@@ -258,12 +260,12 @@ section h2 {
 
 .work-title {
   font-size: 22px;
-  color: #007bff;
+  color: #f0a500;
 }
 
 .work-detail {
   font-size: 16px;
-  color: #555;
+  color: #ccc;
   margin: 8px 0;
 }
 
@@ -274,7 +276,7 @@ section h2 {
 .work-experience ul li {
   margin-bottom: 10px;
   font-size: 16px;
-  color: #666;
+  color: #ccc;
 }
 
 .education {
@@ -284,7 +286,7 @@ section h2 {
 
 .education-title {
   font-size: 24px;
-  color: #007bff;
+  color: #f0a500;
   margin-bottom: 20px;
 }
 
@@ -292,7 +294,7 @@ section h2 {
   list-style-type: none;
   padding: 0;
   font-size: 16px;
-  color: #666;
+  color: #ccc;
 }
 
 .education-list li {
@@ -303,24 +305,46 @@ section h2 {
 .skills p, .contact p {
   font-size: 16px;
   text-align: center;
-  color: #666;
+  color: #ccc;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #007bff;
-  color: white;
+  background-color: #1c1c1c;
+  color: #f0a500;
 }
 
 /* Additional enhancements */
 @media (max-width: 768px) {
-  .navbar ul {
-    flex-direction: column;
+  .menu-icon {
+    display: block;
   }
 
-  .navbar li {
-    margin: 10px 0;
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 50px);
+    position: absolute;
+    top: 50px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    background-color: #1c1c1c;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    opacity: 1;
+  }
+
+  .nav-menu li {
+    margin: 20px 0;
+  }
+
+  .nav-menu a {
+    font-size: 20px;
+    padding: 20px;
   }
 
   .project {
@@ -355,105 +379,3 @@ footer {
     font-size: 14px;
   }
 }
-
-
-.projects-container {
-  padding: 60px 20px;
-  background-color: #f9f9f9;
-  margin: 20px 0;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.projects-title {
-  font-size: 36px;
-  margin-bottom: 40px;
-  color: #007bff;
-}
-
-.project {
-  display: flex;
-  align-items: center;
-  margin-bottom: 40px;
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.project:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.project-content {
-  text-align: left;
-}
-
-.project-title {
-  font-size: 24px;
-  margin: 0 0 10px 0;
-  color: #333;
-}
-
-.project-description {
-  margin: 0;
-  font-size: 16px;
-  color: #666;
-}
-
-.education {
-  text-align: left;
-  margin-top: 40px;
-}
-
-.education-title {
-  font-size: 24px;
-  color: #007bff;
-  margin-bottom: 20px;
-}
-
-.education-list {
-  list-style-type: none;
-  padding: 0;
-  font-size: 16px;
-  color: #666;
-}
-
-.education-list li {
-  margin-bottom: 10px;
-}
-
-/* Additional enhancements */
-@media (max-width: 768px) {
-  .project {
-    flex-direction: column;
-  }
-
-  .project img {
-    margin: 0 0 20px 0;
-  }
-
-  .projects-title {
-    font-size: 28px;
-  }
-
-  .project-title {
-    font-size: 20px;
-  }
-
-  .project-description {
-    font-size: 14px;
-  }
-
-  .education-title {
-    font-size: 20px;
-  }
-
-  .education-list {
-    font-size: 14px;
-  }
-}
-

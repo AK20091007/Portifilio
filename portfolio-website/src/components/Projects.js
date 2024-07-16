@@ -6,7 +6,7 @@ import '../styles.css';
 
 const Projects = () => {
   return (
-    <Zoom>
+    <Zoom cascade triggerOnce>
       <section id="projects" className="projects-container">
         <h2 className="projects-title">Projects & Experience</h2>
 

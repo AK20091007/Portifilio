@@ -1,4 +1,4 @@
-name: Deploy Main
+name: Deploy Main Branch to GitHub Pages
 
 on:
   push:
@@ -19,14 +19,14 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        run: npm install
+        run: cd portfolio-website && npm install
 
       - name: Build project
-        run: npm run build
+        run: cd portfolio-website && npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: portfolio-website/build
           cname: main.akhila6423.com

@@ -3,7 +3,7 @@ name: Deploy Feature
 on:
   push:
     branches:
-      - feature
+      - new_theam
 
 jobs:
   build-and-deploy:

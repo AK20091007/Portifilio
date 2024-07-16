@@ -456,4 +456,39 @@ footer {
     font-size: 14px;
   }
 }
+/* styles.css */
+
+.skills {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-list a {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  font-size: 3em; /* Increase icon size */
+  transition: transform 0.3s, color 0.3s;
+}
+
+.skills-list a:hover {
+  transform: scale(1.2);
+}
+
 

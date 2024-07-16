@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Portifilio/static/css/main.d27206f8.css",
-    "main.js": "/Portifilio/static/js/main.2f05440c.js",
+    "main.js": "/Portifilio/static/js/main.3f506e62.js",
     "static/media/headshot.png": "/Portifilio/static/media/headshot.1ee86491b45aec78296a.png",
     "static/media/project1.png": "/Portifilio/static/media/project1.fc39e4417e854bff44f8.png",
     "static/media/project2.png": "/Portifilio/static/media/project2.ee3d309237a9daaf56c7.png",
     "index.html": "/Portifilio/index.html",
     "main.d27206f8.css.map": "/Portifilio/static/css/main.d27206f8.css.map",
-    "main.2f05440c.js.map": "/Portifilio/static/js/main.2f05440c.js.map"
+    "main.3f506e62.js.map": "/Portifilio/static/js/main.3f506e62.js.map"
   },
   "entrypoints": [
     "static/css/main.d27206f8.css",
-    "static/js/main.2f05440c.js"
+    "static/js/main.3f506e62.js"
   ]
 }

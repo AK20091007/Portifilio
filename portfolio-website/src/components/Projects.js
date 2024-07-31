@@ -59,45 +59,52 @@ const Projects = () => {
           <ProjectsTitle>Projects & Experience</ProjectsTitle>
           <ProjectsGrid>
             <Project>
-              <ProjectTitle>Senior Software Developer - OM Tek Inc</ProjectTitle>
+              <ProjectTitle>Senior Software Developer</ProjectTitle>
               <ProjectDescription>Client: Santander Consumer USA, Dallas, TX</ProjectDescription>
-              <ProjectDescription>Duration: Jan 2022 – May 2024</ProjectDescription>
+              <ProjectDescription>Duration: June 2023 – May 2024</ProjectDescription>
               <ul>
-                <li>Led UX design efforts to create user-centered interfaces for financial applications.</li>
-                <li>Conducted extensive user research, including interviews, surveys, and usability testing, to gather insights and inform design decisions.</li>
-                <li>Developed wireframes, high-fidelity mockups, and interactive prototypes using Figma and Adobe Photoshop.</li>
-                <li>Created user personas and journey maps to better understand user needs and pain points.</li>
-                <li>Implemented intuitive user interfaces using React.js and React Native, focusing on usability and accessibility.</li>
-                <li>Conducted usability testing sessions to identify pain points, gather feedback, and iterate on designs.</li>
-                <li>Collaborated with cross-functional teams, including product managers, developers, and stakeholders, to ensure design consistency and alignment with business goals.</li>
-                <li>Applied responsive design principles and techniques to ensure seamless experiences across various devices and screen sizes.</li>
+                <li>Led the development of a new user-friendly React JS application for customer deposits.</li>
+                <li>Collaborated with business analysts and AEM teams to define content and features.</li>
+                <li>Developed isomorphic applications using React.js and Redux with GraphQL.</li>
+                <li>Implemented unit testing using TDD (React Testing Library/Jest) and BDD (JavaScript Selenium).</li>
+                <li>Optimized AEM applications for performance, scalability, and security.</li>
+                <li>Created responsive designs for various devices using HTML5 & CSS3.</li>
+                <li>Utilized Redux for data management and deployed code using CI/CD pipelines.</li>
               </ul>
+              <ProjectDescription>
+                Environment: HTML5, CSS3, JavaScript, DOM, JSON, React JS, React Native, Redux, Jest, TypeScript, Bootstrap, MVC, Karma, Jasmine, Webpack, Grunt, Web API, Microsoft Visual Studio, GIT, VSTS.
+              </ProjectDescription>
             </Project>
             <Project>
-              <ProjectTitle>UI Developer - SmartInt Technologies LLC</ProjectTitle>
-              <ProjectDescription>Client: Florida Blue, Jacksonville, FL</ProjectDescription>
-              <ProjectDescription>Duration: June 2018 – Dec 2021</ProjectDescription>
+              <ProjectTitle>Software Developer</ProjectTitle>
+              <ProjectDescription>Company: Florida Blue, Jacksonville, Florida</ProjectDescription>
+              <ProjectDescription>Duration: Jan 2023 – Apr 2023</ProjectDescription>
               <ul>
-                <li>Designed and developed a comprehensive healthcare mobile application with a strong focus on user experience and accessibility.</li>
-                <li>Created user-friendly interfaces with Material Design components, ensuring a consistent and cohesive visual language.</li>
-                <li>Conducted user testing and gathered feedback to continuously improve the app's usability and user satisfaction.</li>
-                <li>Integrated data visualization using High charts to present complex data in an understandable and user-friendly way.</li>
-                <li>Collaborated with stakeholders to define user requirements, create wireframes, and develop design solutions that meet user needs.</li>
-                <li>Enhanced app performance by optimizing UX workflows, reducing the user's time to interact, and ensuring smooth navigation.</li>
+                <li>Developed internal Medicare projects Recon 360 and Medicare 360 using React.js, Redux-Saga, and React context provider.</li>
+                <li>Built dynamic web pages with ReactJS, HTML5, CSS3, and jQuery.</li>
+                <li>Used Redux to store data from multiple API endpoints.</li>
+                <li>Implemented responsive layouts and user interfaces using Bootstrap and LESS.</li>
+                <li>Participated in Agile Scrum methodology for iterative application development.</li>
               </ul>
+              <ProjectDescription>
+                Environment: HTML5, CSS3, Sass, Less, JavaScript, Bootstrap, Ajax, React JS, Redux, Flex, MySQL, XML, JSON, GitHub, Restful API, AWS, JIRA, Jasmine, WebStorm.
+              </ProjectDescription>
             </Project>
             <Project>
-              <ProjectTitle>Software Developer - Wipro Technologies</ProjectTitle>
-              <ProjectDescription>Clients: HCA & Info Crossing, Hyderabad, India</ProjectDescription>
-              <ProjectDescription>Duration: May 2016 – Dec 2017</ProjectDescription>
+              <ProjectTitle>Software Developer</ProjectTitle>
+              <ProjectDescription>Company: Wipro, Hyderabad, Telangana, India</ProjectDescription>
+              <ProjectDescription>Clients: HCA & Info Crossing</ProjectDescription>
+              <ProjectDescription>Duration: Jun 2018 – Dec 2021</ProjectDescription>
               <ul>
-                <li>Spearheaded the UX design for internal Medicare projects, ensuring a seamless user experience and improving user engagement.</li>
-                <li>Developed reusable UI components to improve development efficiency and maintain design consistency across applications.</li>
-                <li>Conducted A/B testing to validate design choices, optimize user interactions, and increase user satisfaction.</li>
-                <li>Worked closely with the design team to create engaging, user-friendly interfaces that met business and user goals.</li>
-                <li>Implemented cross-browser compatible layouts using Bootstrap and LESS, ensuring a consistent user experience across all devices.</li>
-                <li>Applied Agile methodologies and participated in daily standups and sprint planning, ensuring timely delivery of high-quality design solutions.</li>
+                <li>Developed a healthcare management web application using Angular 6 & 7, HTML5, CSS3, and TypeScript.</li>
+                <li>Created single-page applications (SPAs) with Angular directives, services, components, and modules.</li>
+                <li>Implemented reusable DOM manipulation using Angular custom directives.</li>
+                <li>Developed RESTful web services using Node.js and Express.js.</li>
+                <li>Utilized MongoDB for database persistence and managed cross-browser compatibility issues.</li>
               </ul>
+              <ProjectDescription>
+                Environment: HTML5, CSS3, Angular, JSX, LESS, Bootstrap, Flex, Jest, Webpack, Web API, IntelliJ, GIT, CI/CD, Selenium.
+              </ProjectDescription>
             </Project>
           </ProjectsGrid>
         </ProjectsContainer>

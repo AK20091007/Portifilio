@@ -68,7 +68,7 @@ const Contact = () => {
         <ContactDetail>
           <ContactIcon><FaLinkedin /></ContactIcon>
           <span>LinkedIn:</span>
-          <ContactLink href="https://www.linkedin.com/in/akhila6423/" target="_blank" rel="noopener noreferrer">linkedin.com/in/akhila6423/</ContactLink>
+          <ContactLink href="https://www.linkedin.com/in/akhil6423/" target="_blank" rel="noopener noreferrer">linkedin.com/in/akhil6423/</ContactLink>
         </ContactDetail>
       </ContactContainer>
     </ContactSection>

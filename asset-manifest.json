@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portifilio/static/css/main.d7af21cc.css",
-    "main.js": "/Portifilio/static/js/main.1070768f.js",
+    "main.js": "/Portifilio/static/js/main.ce958cf5.js",
     "static/media/headshot.png": "/Portifilio/static/media/headshot.1ee86491b45aec78296a.png",
     "static/media/skills-background.jpg": "/Portifilio/static/media/skills-background.05ef297fb2e87aef16a6.jpg",
     "static/media/projects-background.jpg": "/Portifilio/static/media/projects-background.2492041e4529420ffb3a.jpg",
@@ -9,10 +9,10 @@
     "static/media/background-image.jpg": "/Portifilio/static/media/background-image.80f437bcd285532767aa.jpg",
     "index.html": "/Portifilio/index.html",
     "main.d7af21cc.css.map": "/Portifilio/static/css/main.d7af21cc.css.map",
-    "main.1070768f.js.map": "/Portifilio/static/js/main.1070768f.js.map"
+    "main.ce958cf5.js.map": "/Portifilio/static/js/main.ce958cf5.js.map"
   },
   "entrypoints": [
     "static/css/main.d7af21cc.css",
-    "static/js/main.1070768f.js"
+    "static/js/main.ce958cf5.js"
   ]
 }

@@ -15,7 +15,7 @@ const ProjectsContainer = styled.div`
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-  max-width: 1200px; /* Increased to accommodate two projects per row */
+  max-width: 1200px;
   margin: 0 auto;
 `;
 
@@ -27,11 +27,11 @@ const ProjectsTitle = styled.h2`
 
 const ProjectsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 
   @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr); /* Two columns for larger screens */
+    grid-template-columns: repeat(2, 1fr);
   }
 `;
 
@@ -63,16 +63,23 @@ const Projects = () => {
               <ProjectDescription>Client: Santander Consumer USA, Dallas, TX</ProjectDescription>
               <ProjectDescription>Duration: June 2023 – May 2024</ProjectDescription>
               <ul>
-                <li>Led the development of a new user-friendly React JS application for customer deposits.</li>
-                <li>Collaborated with business analysts and AEM teams to define content and features.</li>
-                <li>Developed isomorphic applications using React.js and Redux with GraphQL.</li>
-                <li>Implemented unit testing using TDD (React Testing Library/Jest) and BDD (JavaScript Selenium).</li>
-                <li>Optimized AEM applications for performance, scalability, and security.</li>
-                <li>Created responsive designs for various devices using HTML5 & CSS3.</li>
-                <li>Utilized Redux for data management and deployed code using CI/CD pipelines.</li>
+                <li>Led the backend development using Java Spring Boot for a new customer deposits application.</li>
+                <li>Developed and maintained RESTful and SOAP web services.</li>
+                <li>Utilized Kafka for message brokering between microservices.</li>
+                <li>Implemented CI/CD pipelines using Jenkins and GitLab CI/CD.</li>
+                <li>Collaborated with frontend teams to integrate ReactJS applications with backend services.</li>
+                <li>Developed complex user interfaces using ReactJS, enhancing the user experience through efficient state management with Redux.</li>
+                <li>Implemented reusable React components, reducing development time and ensuring consistency across the application.</li>
+                <li>Optimized React applications for performance and scalability.</li>
+                <li>Conducted unit testing using JUnit and integration testing with Selenium.</li>
+                <li>Designed and implemented database schemas in MySQL for efficient data storage and retrieval.</li>
+                <li>Improved application performance by optimizing Java code and database queries.</li>
+                <li>Provided technical mentorship to junior developers.</li>
+                <li>Mentored team members on best practices in React development, including component lifecycle, hooks, and state management.</li>
+                <li>Implemented responsive design and cross-browser compatibility to ensure a seamless user experience across various devices.</li>
               </ul>
               <ProjectDescription>
-                Environment: HTML5, CSS3, JavaScript, DOM, JSON, React JS, React Native, Redux, Jest, TypeScript, Bootstrap, MVC, Karma, Jasmine, Webpack, Grunt, Web API, Microsoft Visual Studio, GIT, VSTS.
+                Environment: Java Spring Boot, Spring MVC, Spring Security, REST, SOAP, Kafka, Docker, ReactJS, Redux, Jenkins, GitLab CI/CD, IntelliJ, Git.
               </ProjectDescription>
             </Project>
             <Project>
@@ -80,30 +87,36 @@ const Projects = () => {
               <ProjectDescription>Company: Florida Blue, Jacksonville, Florida</ProjectDescription>
               <ProjectDescription>Duration: Jan 2023 – Apr 2023</ProjectDescription>
               <ul>
-                <li>Developed internal Medicare projects Recon 360 and Medicare 360 using React.js, Redux-Saga, and React context provider.</li>
-                <li>Built dynamic web pages with ReactJS, HTML5, CSS3, and jQuery.</li>
-                <li>Used Redux to store data from multiple API endpoints.</li>
-                <li>Implemented responsive layouts and user interfaces using Bootstrap and LESS.</li>
-                <li>Participated in Agile Scrum methodology for iterative application development.</li>
+                <li>Developed backend services for a healthcare management application using Spring Boot.</li>
+                <li>Implemented RESTful APIs and integrated them with frontend Angular applications.</li>
+                <li>Utilized Docker for containerization and deployment.</li>
+                <li>Developed secure authentication and authorization mechanisms using Spring Security.</li>
+                <li>Automated build and deployment processes using Jenkins CI/CD pipelines.</li>
+                <li>Collaborated with the frontend team to ensure seamless integration with React components.</li>
               </ul>
               <ProjectDescription>
-                Environment: HTML5, CSS3, Sass, Less, JavaScript, Bootstrap, Ajax, React JS, Redux, Flex, MySQL, XML, JSON, GitHub, Restful API, AWS, JIRA, Jasmine, WebStorm.
+                Environment: Java Spring Boot, REST, Docker, MySQL, GitHub, JIRA.
               </ProjectDescription>
             </Project>
             <Project>
               <ProjectTitle>Software Developer</ProjectTitle>
               <ProjectDescription>Company: Wipro, Hyderabad, Telangana, India</ProjectDescription>
               <ProjectDescription>Clients: HCA & Info Crossing</ProjectDescription>
-              <ProjectDescription>Duration: Jun 2018 – Dec 2021</ProjectDescription>
+              <ProjectDescription>Duration: Jun 2019 – Dec 2021</ProjectDescription>
               <ul>
-                <li>Developed a healthcare management web application using Angular 6 & 7, HTML5, CSS3, and TypeScript.</li>
-                <li>Created single-page applications (SPAs) with Angular directives, services, components, and modules.</li>
-                <li>Implemented reusable DOM manipulation using Angular custom directives.</li>
-                <li>Developed RESTful web services using Node.js and Express.js.</li>
-                <li>Utilized MongoDB for database persistence and managed cross-browser compatibility issues.</li>
+                <li>Developed internal Medicare projects using Java Spring technologies and ReactJS.</li>
+                <li>Implemented microservices architecture for scalable application development.</li>
+                <li>Developed dynamic web pages and integrated with backend services.</li>
+                <li>Utilized ReactJS to create interactive UIs and manage application state with Redux.</li>
+                <li>Integrated third-party libraries and APIs to extend React application functionality.</li>
+                <li>Participated in Agile Scrum methodology for iterative application development.</li>
+                <li>Designed and implemented caching strategies using Spring Cache and Redis to enhance application performance.</li>
+                <li>Integrated third-party APIs and services to extend application functionalities.</li>
+                <li>Conducted code reviews and ensured adherence to best coding practices.</li>
+                <li>Improved the performance of React applications by implementing lazy loading and code splitting.</li>
               </ul>
               <ProjectDescription>
-                Environment: HTML5, CSS3, Angular, JSX, LESS, Bootstrap, Flex, Jest, Webpack, Web API, IntelliJ, GIT, CI/CD, Selenium.
+                Environment: Java Spring Boot, Spring Cloud, REST, SOAP, Microservices, ReactJS, Redux, Docker, MongoDB, Git, CI/CD, Selenium.
               </ProjectDescription>
             </Project>
           </ProjectsGrid>

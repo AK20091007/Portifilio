@@ -9,10 +9,10 @@ const Hero = () => {
     <Fade>
       <section className="hero">
         <img src={headshot} alt="Headshot" className="headshot"/>
-        <h1>UX Designer</h1>
+        <h1>Senior Software Developer</h1>
         <p>
           <Typewriter
-            words={['I\'m a UX Designer', 'I\'m a Front-End Developer']}
+            words={['I\'m a Senior Software Developer', 'I\'m a Senior Software Developer']}
             loop={0}
             cursor
             cursorStyle='_'

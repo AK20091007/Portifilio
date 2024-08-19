@@ -102,7 +102,7 @@ const Projects = () => {
               <ProjectTitle>Software Developer</ProjectTitle>
               <ProjectDescription>Company: Wipro, Hyderabad, Telangana, India</ProjectDescription>
               <ProjectDescription>Clients: HCA & Info Crossing</ProjectDescription>
-              <ProjectDescription>Duration: Jun 2019 – Dec 2021</ProjectDescription>
+              <ProjectDescription>Duration: Jun 2018 – Dec 2021</ProjectDescription>
               <ul>
                 <li>Developed internal Medicare projects using Java Spring technologies and ReactJS.</li>
                 <li>Implemented microservices architecture for scalable application development.</li>
